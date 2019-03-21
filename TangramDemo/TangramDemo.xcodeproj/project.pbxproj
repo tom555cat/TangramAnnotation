@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6638C4E52239EF280025A5A6 /* XCOnePlusFourLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 6638C4E42239EF280025A5A6 /* XCOnePlusFourLayout.m */; };
+		6638C4E8223A0C0F0025A5A6 /* XCTestLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 6638C4E7223A0C0F0025A5A6 /* XCTestLayout.m */; };
+		6638C4EB223A10020025A5A6 /* XCTestElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 6638C4EA223A10020025A5A6 /* XCTestElement.m */; };
+		920BF8C4201764E1004F7966 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 920BF8C3201764E1004F7966 /* AppDelegate.m */; };
+		920BF8C7201764E1004F7966 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 920BF8C6201764E1004F7966 /* ViewController.m */; };
+		920BF8CC201764E1004F7966 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 920BF8CB201764E1004F7966 /* Assets.xcassets */; };
+		920BF8CF201764E1004F7966 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 920BF8CD201764E1004F7966 /* LaunchScreen.storyboard */; };
+		920BF8D2201764E1004F7966 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 920BF8D1201764E1004F7966 /* main.m */; };
+		928D30B12020678D00C419B8 /* TangramMock.json in Resources */ = {isa = PBXBuildFile; fileRef = 928D30A72020678C00C419B8 /* TangramMock.json */; };
+		928D30B22020678D00C419B8 /* MockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 928D30A82020678C00C419B8 /* MockViewController.m */; };
+		928D30B32020678D00C419B8 /* TangramSimpleTextElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 928D30AC2020678C00C419B8 /* TangramSimpleTextElement.m */; };
+		928D30B42020678D00C419B8 /* TangramSingleImageElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 928D30AE2020678C00C419B8 /* TangramSingleImageElement.m */; };
+		928D30B52020678D00C419B8 /* EntryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 928D30B02020678D00C419B8 /* EntryTableViewController.m */; };
+		981273367B241CA62055C91F /* libPods-TangramDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA2652B2D10FB0931A99CE4F /* libPods-TangramDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6638C4E32239EF280025A5A6 /* XCOnePlusFourLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCOnePlusFourLayout.h; sourceTree = "<group>"; };
+		6638C4E42239EF280025A5A6 /* XCOnePlusFourLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCOnePlusFourLayout.m; sourceTree = "<group>"; };
+		6638C4E6223A0C0F0025A5A6 /* XCTestLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCTestLayout.h; sourceTree = "<group>"; };
+		6638C4E7223A0C0F0025A5A6 /* XCTestLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCTestLayout.m; sourceTree = "<group>"; };
+		6638C4E9223A10020025A5A6 /* XCTestElement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCTestElement.h; sourceTree = "<group>"; };
+		6638C4EA223A10020025A5A6 /* XCTestElement.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCTestElement.m; sourceTree = "<group>"; };
+		920BF8BF201764E1004F7966 /* TangramDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TangramDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		920BF8C2201764E1004F7966 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		920BF8C3201764E1004F7966 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		920BF8C5201764E1004F7966 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		920BF8C6201764E1004F7966 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		920BF8CB201764E1004F7966 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		920BF8CE201764E1004F7966 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		920BF8D0201764E1004F7966 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		920BF8D1201764E1004F7966 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		928D30A72020678C00C419B8 /* TangramMock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TangramMock.json; sourceTree = "<group>"; };
+		928D30A82020678C00C419B8 /* MockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MockViewController.m; sourceTree = "<group>"; };
+		928D30A92020678C00C419B8 /* EntryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntryTableViewController.h; sourceTree = "<group>"; };
+		928D30AB2020678C00C419B8 /* TangramSimpleTextElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TangramSimpleTextElement.h; sourceTree = "<group>"; };
+		928D30AC2020678C00C419B8 /* TangramSimpleTextElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TangramSimpleTextElement.m; sourceTree = "<group>"; };
+		928D30AD2020678C00C419B8 /* TangramSingleImageElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TangramSingleImageElement.h; sourceTree = "<group>"; };
+		928D30AE2020678C00C419B8 /* TangramSingleImageElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TangramSingleImageElement.m; sourceTree = "<group>"; };
+		928D30AF2020678D00C419B8 /* MockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MockViewController.h; sourceTree = "<group>"; };
+		928D30B02020678D00C419B8 /* EntryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntryTableViewController.m; sourceTree = "<group>"; };
+		CA2652B2D10FB0931A99CE4F /* libPods-TangramDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TangramDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFE52878725578710761DDD6 /* Pods-TangramDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TangramDemo.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-TangramDemo/Pods-TangramDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		E1D93047B554CE3C0E677541 /* Pods-TangramDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TangramDemo.release.xcconfig"; path = "../Pods/Target Support Files/Pods-TangramDemo/Pods-TangramDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		920BF8BC201764E1004F7966 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				981273367B241CA62055C91F /* libPods-TangramDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		920BF8B6201764E1004F7966 = {
+			isa = PBXGroup;
+			children = (
+				920BF8C1201764E1004F7966 /* TangramDemo */,
+				920BF8C0201764E1004F7966 /* Products */,
+				9343C7A0D16745BAD6C1BE6A /* Pods */,
+				B20ACE72D01422E8F8B7E43B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		920BF8C0201764E1004F7966 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				920BF8BF201764E1004F7966 /* TangramDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		920BF8C1201764E1004F7966 /* TangramDemo */ = {
+			isa = PBXGroup;
+			children = (
+				928D30A62020678C00C419B8 /* Resources */,
+				928D30AA2020678C00C419B8 /* Element */,
+				920BF8C2201764E1004F7966 /* AppDelegate.h */,
+				920BF8C3201764E1004F7966 /* AppDelegate.m */,
+				920BF8C5201764E1004F7966 /* ViewController.h */,
+				920BF8C6201764E1004F7966 /* ViewController.m */,
+				928D30A92020678C00C419B8 /* EntryTableViewController.h */,
+				928D30B02020678D00C419B8 /* EntryTableViewController.m */,
+				928D30AF2020678D00C419B8 /* MockViewController.h */,
+				928D30A82020678C00C419B8 /* MockViewController.m */,
+				6638C4E6223A0C0F0025A5A6 /* XCTestLayout.h */,
+				6638C4E7223A0C0F0025A5A6 /* XCTestLayout.m */,
+				6638C4E32239EF280025A5A6 /* XCOnePlusFourLayout.h */,
+				6638C4E42239EF280025A5A6 /* XCOnePlusFourLayout.m */,
+				920BF8CB201764E1004F7966 /* Assets.xcassets */,
+				920BF8CD201764E1004F7966 /* LaunchScreen.storyboard */,
+				920BF8D0201764E1004F7966 /* Info.plist */,
+				920BF8D1201764E1004F7966 /* main.m */,
+			);
+			path = TangramDemo;
+			sourceTree = "<group>";
+		};
+		928D30A62020678C00C419B8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				928D30A72020678C00C419B8 /* TangramMock.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		928D30AA2020678C00C419B8 /* Element */ = {
+			isa = PBXGroup;
+			children = (
+				928D30AB2020678C00C419B8 /* TangramSimpleTextElement.h */,
+				928D30AC2020678C00C419B8 /* TangramSimpleTextElement.m */,
+				928D30AD2020678C00C419B8 /* TangramSingleImageElement.h */,
+				928D30AE2020678C00C419B8 /* TangramSingleImageElement.m */,
+				6638C4E9223A10020025A5A6 /* XCTestElement.h */,
+				6638C4EA223A10020025A5A6 /* XCTestElement.m */,
+			);
+			path = Element;
+			sourceTree = "<group>";
+		};
+		9343C7A0D16745BAD6C1BE6A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CFE52878725578710761DDD6 /* Pods-TangramDemo.debug.xcconfig */,
+				E1D93047B554CE3C0E677541 /* Pods-TangramDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B20ACE72D01422E8F8B7E43B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA2652B2D10FB0931A99CE4F /* libPods-TangramDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		920BF8BE201764E1004F7966 /* TangramDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 920BF8D5201764E1004F7966 /* Build configuration list for PBXNativeTarget "TangramDemo" */;
+			buildPhases = (
+				F04088E1AA23D8122992FFBB /* [CP] Check Pods Manifest.lock */,
+				920BF8BB201764E1004F7966 /* Sources */,
+				920BF8BC201764E1004F7966 /* Frameworks */,
+				920BF8BD201764E1004F7966 /* Resources */,
+				8B02239CE468C7FD4F7CCBBF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TangramDemo;
+			productName = TangramDemo;
+			productReference = 920BF8BF201764E1004F7966 /* TangramDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		920BF8B7201764E1004F7966 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = tmall;
+				TargetAttributes = {
+					920BF8BE201764E1004F7966 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 920BF8BA201764E1004F7966 /* Build configuration list for PBXProject "TangramDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 920BF8B6201764E1004F7966;
+			productRefGroup = 920BF8C0201764E1004F7966 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				920BF8BE201764E1004F7966 /* TangramDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		920BF8BD201764E1004F7966 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				920BF8CF201764E1004F7966 /* LaunchScreen.storyboard in Resources */,
+				920BF8CC201764E1004F7966 /* Assets.xcassets in Resources */,
+				928D30B12020678D00C419B8 /* TangramMock.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8B02239CE468C7FD4F7CCBBF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TangramDemo/Pods-TangramDemo-resources.sh",
+				"${PODS_ROOT}/../Tangram/Resources/TangramKitVVElementTypeMap.plist",
+				"${PODS_ROOT}/../Tangram/Resources/TangramLayoutTypeMap.plist",
+				"${PODS_ROOT}/../Tangram/Resources/TmallComponent2.out",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TangramKitVVElementTypeMap.plist",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TangramLayoutTypeMap.plist",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TmallComponent2.out",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TangramDemo/Pods-TangramDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F04088E1AA23D8122992FFBB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TangramDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		920BF8BB201764E1004F7966 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				928D30B52020678D00C419B8 /* EntryTableViewController.m in Sources */,
+				928D30B22020678D00C419B8 /* MockViewController.m in Sources */,
+				920BF8C7201764E1004F7966 /* ViewController.m in Sources */,
+				6638C4E8223A0C0F0025A5A6 /* XCTestLayout.m in Sources */,
+				6638C4E52239EF280025A5A6 /* XCOnePlusFourLayout.m in Sources */,
+				928D30B32020678D00C419B8 /* TangramSimpleTextElement.m in Sources */,
+				920BF8D2201764E1004F7966 /* main.m in Sources */,
+				920BF8C4201764E1004F7966 /* AppDelegate.m in Sources */,
+				928D30B42020678D00C419B8 /* TangramSingleImageElement.m in Sources */,
+				6638C4EB223A10020025A5A6 /* XCTestElement.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		920BF8CD201764E1004F7966 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				920BF8CE201764E1004F7966 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		920BF8D3201764E1004F7966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		920BF8D4201764E1004F7966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		920BF8D6201764E1004F7966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFE52878725578710761DDD6 /* Pods-TangramDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T35EVU2EFL;
+				INFOPLIST_FILE = TangramDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tmall.TangramDemo.wyh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		920BF8D7201764E1004F7966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1D93047B554CE3C0E677541 /* Pods-TangramDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T35EVU2EFL;
+				INFOPLIST_FILE = TangramDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tmall.TangramDemo.wyh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		920BF8BA201764E1004F7966 /* Build configuration list for PBXProject "TangramDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				920BF8D3201764E1004F7966 /* Debug */,
+				920BF8D4201764E1004F7966 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		920BF8D5201764E1004F7966 /* Build configuration list for PBXNativeTarget "TangramDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				920BF8D6201764E1004F7966 /* Debug */,
+				920BF8D7201764E1004F7966 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 920BF8B7201764E1004F7966 /* Project object */;
+}
