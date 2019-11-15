@@ -7,8 +7,9 @@
 
 #import "TangramSimpleTextElement.h"
 #import "TangramDefaultItemModel.h"
+#import "TangramEasyElementProtocol.h"
 
-@interface TangramSimpleTextElement()
+@interface TangramSimpleTextElement() <TangramEasyElementProtocol>
 
 @property (nonatomic, strong) UILabel *label;
 
@@ -36,5 +37,9 @@
 + (CGFloat)heightByModel:(TangramDefaultItemModel *)itemModel
 {
     return 30.f;
+}
+
+- (void)setTangramItemModel:(TangramDefaultItemModel *)tangramItemModel {
+    NSLog(@"当前父视图的frame:%@", NSStringFromCGRect(self.superview.frame));
 }
 @end

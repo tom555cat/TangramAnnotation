@@ -76,10 +76,14 @@
 {
     NSMutableArray *layouts = [[NSMutableArray alloc]init];
     if ([(Class)([TangramDefaultDataSourceHelper sharedInstance].layoutFactoryClass) instanceMethodForSelector:@selector(preprocessedDataArrayFromOriginalArray:)]) {
+        // 预处理一下，检查根items下的所有type都是layout，如果不是layout，则设置一个oneColumne的
+        // layout，将里面的内容包裹起来。起到一个预处理的作用，使所有items下的type都是layout。
         dictArray = [[TangramDefaultDataSourceHelper sharedInstance].layoutFactoryClass preprocessedDataArrayFromOriginalArray:dictArray];
     }
     for (NSDictionary *dict in dictArray) {
+        // 根据layout字典中的type，创建layout实例
         UIView<TangramLayoutProtocol> *layout = [[TangramDefaultDataSourceHelper sharedInstance].layoutFactoryClass layoutByDict:dict];
+        // 主要是设置layout的itemModels，需要关注的是itemModel的type如果是layout而不是element的时候，itemModel中(可能必须)设置一个id字段
         [self fillLayoutProperty:layout withDict:dict tangramBus:tangramBus];
         if (0 == layout.itemModels.count) {
             continue;
@@ -103,8 +107,11 @@
         return nil;
     }
     NSObject<TangramItemModelProtocol> *itemModel = nil;
+    // 通过字典的内容，创建itemModel
     itemModel = [[TangramDefaultDataSourceHelper sharedInstance].itemModelFactoryClass itemModelByDict:dict];
     if ([[dict tm_stringForKey:@"kind"] isEqualToString:@"row"] || [[TangramDefaultDataSourceHelper sharedInstance].layoutFactoryClass layoutClassNameByType:type] != nil) {
+        // 如果itemModel中的type是个layout，而不是element，则进入了这个if判断，然后这个itemModel的linkElementName
+        // 就使用了layout对应的class名字取代了。
         if ([(Class)([TangramDefaultDataSourceHelper sharedInstance].layoutFactoryClass) instanceMethodForSelector:@selector(layoutClassNameByType:)]) {
             itemModel.linkElementName = [[TangramDefaultDataSourceHelper sharedInstance].layoutFactoryClass layoutClassNameByType:itemModel.itemType];
         }
@@ -129,6 +136,7 @@
     NSArray *itemModelArray = [dict tm_arrayForKey:@"items"];
     for (NSUInteger i = 0 ; i < itemModelArray.count ; i++) {
         NSDictionary *dict = [itemModelArray tm_dictionaryAtIndex:i];
+        // 根据layout下的items中的每一个字典创建一个ItemModel
         NSObject<TangramItemModelProtocol> *model =  [self modelWithDictionary:dict];
         if (model) {
             [itemModels tm_safeAddObject:model];
@@ -213,6 +221,8 @@
 #pragma mark - Private
 + (UIView<TangramLayoutProtocol> *)fillLayoutProperty :(UIView<TangramLayoutProtocol> *)layout withDict:(NSDictionary *)dict tangramBus:(TangramBus *)tangramBus
 {
+    // 设置itemModels(尤其关注itemModel的elementLink，如果itemModel的type是个element，则就是elementClass；如果type是个layout，则就
+    // 用layout的class来替换)
     layout.itemModels = [self modelsWithLayoutDictionary:dict];
     //layout在自己内部做处理其他数据
     layout = [TangramLayoutParseHelper layoutConfigByOriginLayout:layout withDict:dict];
@@ -235,13 +245,16 @@
     for (NSUInteger i = 0 ; i < layout.itemModels.count ; i++) {
         NSObject<TangramItemModelProtocol> *model = [layout.itemModels tm_safeObjectAtIndex:i];
         //Analyze whether its nested layout.
+        // 😃在itemModel中的type指定了一个layout而不是element，则称为一个nested layout，此时itemModel中应该再包含一个id字段才能进入下面的if判断中。
         if ([model respondsToSelector:@selector(layoutIdentifierForLayoutModel)] &&  model.layoutIdentifierForLayoutModel && model.layoutIdentifierForLayoutModel.length > 0) {
+            // 这里的modelDict其实虽然表面上是一个element，其实已经是一个layout了
             NSDictionary *modelDict = [[dict tm_arrayForKey:@"items"] tm_dictionaryAtIndex:i];
             if ( 0 >= [modelDict tm_arrayForKey:@"items"].count) {
                 [itemModelToBeRemoved tm_safeAddObject:model];
                 continue;
             }
             //Generate layout
+            // 根据itemModel中的type，创建layout
             UIView<TangramLayoutProtocol> *innerLayout = [self layoutWithDictionary:modelDict  tangramBus:tangramBus];
             if (innerLayout && innerLayout.identifier.length > 0) {
                 [mutableInnerLayoutDict setObject:innerLayout forKey:innerLayout.identifier];

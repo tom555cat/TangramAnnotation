@@ -2,585 +2,100 @@
     "data": {
         "cards": [
             {
-                "type": "text",
-                "text": "You can see data in TangramMock.json"
-            },
-            {
-                "type": "container-sticky",
-                "id": "first-line-10003132",
-                "style": {
-                    "sticky": "start",
-                    "offset": 150,
-                    "enableScroll": false,
-                    "bgColor": "#ff0000"
-                },
-                "items": [
-                    {
-                        "type": "text",
-                        "text": "悬浮框"
-                    }
-                ]
-            },
-            {
                 "type": "container-oneColumn",
-                "id": "first-line",
+                "id": "first-line123sdsdsdsd",
                 "style":{
                     "padding":["5rp","5","5","5"]
                 },
                 "items": [
                     {
-                        "type": "text",
-                        "text": "VirtualView Element , use rp as margin",
+                        "type": "container-test",
+                        "id": "hjasdhajsdhajshdja1hhhhhhaaaaa",
                         "style":{
                             "margin":["5rp","5","5","5"]
-                        }
-                    },
-                    {
-                        "type": "text",
-                        "text": "rp is a unit that considers all screen widths to be 750 ",
-                        "style":{
-                            "margin":["5rp","5","5","5"]
-                        }
-                    },
-                    {
-                        "type": "TmallComponent2",
-                        "imgUrl": "https://gw.alicdn.com/tps/TB1Nin9JFXXXXbXaXXXXXXXXXXX-224-224.png",
-                        "title": "VirtualView",
-                        "style":{
-                            "ratio":"5"
-                        }
-                    }
-                ]
-            },
-            {
-                "type": "container-oneColumn",
-                "id": "first-line-1",
-                "items": [
-                    {
-                        "type": "text",
-                        "text": "type = container-oneColumn"
-                    }
-                ]
-            },
-            {
-                "type": "container-twoColumn",
-                "id": "type=2",
-                "style": {
-                    "bgColor": "#ffffff",
-                    "cols": [30, 70]
-                },
-                "header": {
-                    "type": "text",
-                    "text": "type = 2 Double Column Layout(use header) "
-                },
-                "items": [
-                    {
-                        "type": "container-twoColumn",
-                        "id": "type=1",
-                        "style": {
-                            "bgColor": "#ffffff"
                         },
                         "items": [
                             {
-                                "type": "image",
-                                "imgUrl": "https://gw.alicdn.com/tps/TB1Nin9JFXXXXbXaXXXXXXXXXXX-224-224.png",
-                                "height": 50.0,
-                                "action":"https://www.taobao.com"
+                                "type": "container-test",
+                                "id": "hjasdhajsdhajshdja122ssssss",
+                                "style":{
+                                    "margin":["5rp","5","5","4"]
+                                },
+                                "items": [
+                                    {
+                                        "type": "text",
+                                        "text": "1-2-1",
+                                        "style":{
+                                            "margin":["5rp","5","5","5"]
+                                        }
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": "1-2-2",
+                                        "style":{
+                                            "margin":["5rp","5","5","5"]
+                                        }
+                                    }
+                                ]
                             },
                             {
-                                "type": "image",
-                                "imgUrl": "https://gw.alicdn.com/tps/TB1Nin9JFXXXXbXaXXXXXXXXXXX-224-224.png",
-                                "height": 50.0,
-                                "action":"https://www.tmall.com"
-                            },
-                            {
-                                "type": "image",
-                                "imgUrl": "https://gw.alicdn.com/tps/TB1Nin9JFXXXXbXaXXXXXXXXXXX-224-224.png",
-                                "height": 50.0,
-                                "action":"https://www.taobao.com"
-                            },
-                            {
-                                "type": "image",
-                                "imgUrl": "https://gw.alicdn.com/tps/TB1Nin9JFXXXXbXaXXXXXXXXXXX-224-224.png",
-                                "height": 50.0,
-                                "action":"https://www.tmall.com"
+                                "type": "container-test",
+                                "id": "hjasdhajsdhajshdja122323dddddd",
+                                "style":{
+                                    "margin":["5rp","5","5","5"]
+                                },
+                                "items": [
+                                    {
+                                        "type": "text",
+                                        "text": "1-2-1",
+                                        "style":{
+                                            "margin":["5rp","5","5","5"]
+                                        }
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": "1-2-2",
+                                        "style":{
+                                            "margin":["5rp","5","5","5"]
+                                        }
+                                    }
+                                ]
                             }
                         ]
                     },
                     {
-                        "type": "image",
-                        "imgUrl": "https://gw.alicdn.com/tps/TB1Nin9JFXXXXbXaXXXXXXXXXXX-224-224.png"
-                    }
-                ],
-                "footer": {
-                    "type": "text",
-                    "text": "Double Column Layout footer(use footer) "
-                }
-            },
-            {
-                "type": "container-oneColumn",
-                "id": "type=1",
-                "style": {
-                    "bgColor": "#ffffff"
-                },
-                "items": [
-                    {
-                        "type": "image",
-                        "imgUrl": "https://gw.alicdn.com/tps/TB1Nin9JFXXXXbXaXXXXXXXXXXX-224-224.png",
-                        "height": 100.0,
-                        "action":"https://www.taobao.com"
-                    },
-                    {
-                        "type": "image",
-                        "imgUrl": "https://gw.alicdn.com/tps/TB1Nin9JFXXXXbXaXXXXXXXXXXX-224-224.png",
-                         "height": 150.0,
-                        "action":"https://www.tmall.com"
-                    },
-                    {
-                        "imgUrl": "https://gw.alicdn.com/tps/TB1Nin9JFXXXXbXaXXXXXXXXXXX-224-224.png",
-                        "type": "image",
-                        "height": 20,
-                        "action":"https://www.tmall.com"
-                    }
-                ]
-            },
-            {
-                "type": "container-twoColumn",
-                "id": "type=2",
-                "style": {
-                    "bgColor": "#ffffff"
-                },
-                "header": {
-                    "type": "text",
-                    "text": "type = 2 Double Column Layout(use header) "
-                },
-                "items": [
-                    {
-                        "type": "image",
-                        "imgUrl": "https://gw.alicdn.com/tps/TB1Nin9JFXXXXbXaXXXXXXXXXXX-224-224.png"
-                    },
-                    {
-                        "type": "image",
-                        "imgUrl": "https://gw.alicdn.com/tps/TB1Nin9JFXXXXbXaXXXXXXXXXXX-224-224.png"
-                    },
-                    {
-                        "imgUrl": "https://gw.alicdn.com/tps/TB1Nin9JFXXXXbXaXXXXXXXXXXX-224-224.png",
-                        "type": "image"
-                    }
-                ],
-                "footer": {
-                    "type": "text",
-                    "text": "Double Column Layout footer(use footer) "
-                }
-            },
-            {
-                "type": "container-oneColumn",
-                "id": "3",
-                "items": [
-                    {
-                        "type": "text",
-                        "text": "type = 3 Trible Column Layout "
-                    }
-                ]
-            },
-            {
-                "type": "container-threeColumn",
-                "id": "type=3",
-                "style": {
-                    "bgColor": "#ffffff"
-                },
-                "items": [
-                    {
-                        "type": "image",
-                        "imgUrl": "https://gw.alicdn.com/tps/TB1Nin9JFXXXXbXaXXXXXXXXXXX-224-224.png"
-                    },
-                    {
-                        "type": "image",
-                        "imgUrl": "https://gw.alicdn.com/tps/TB1Nin9JFXXXXbXaXXXXXXXXXXX-224-224.png"
-                    },
-                    {
-                        "imgUrl": "https://gw.alicdn.com/tps/TB1Nin9JFXXXXbXaXXXXXXXXXXX-224-224.png",
-                        "type": "image"
-                    }
-                ]
-            },
-            {
-                "type": "container-oneColumn",
-                "id": "first-line-4",
-                "items": [
-                    {
-                        "type": "text",
-                        "text": "type = 4 Quintet Column Layout "
-                    }
-                ]
-            },
-            {
-                "type": "container-test",
-                "id": "type=13489",
-                "style": {
-                    "bgColor": "#ffffff"
-                },
-                "items": [
-                    {
-                        "type": "test",
-                        "imgUrl": "https://gw.alicdn.com/tps/TB1Nin9JFXXXXbXaXXXXXXXXXXX-224-224.png"
-                    },
-                    {
-                        "type": "test",
-                        "imgUrl": "https://gw.alicdn.com/tps/TB1Nin9JFXXXXbXaXXXXXXXXXXX-224-224.png"
-                    },
-                    {
-                        "type": "test",
-                        "imgUrl": "https://gw.alicdn.com/tps/TB1Nin9JFXXXXbXaXXXXXXXXXXX-224-224.png"
-                    },
-                    {
-                        "type": "test",
-                        "imgUrl": "https://gw.alicdn.com/tps/TB1Nin9JFXXXXbXaXXXXXXXXXXX-224-224.png"
-                    },
-                    {
-                        "type": "test",
-                        "imgUrl": "https://gw.alicdn.com/tps/TB1Nin9JFXXXXbXaXXXXXXXXXXX-224-224.png"
-                    },
-                    {
-                        "type": "test",
-                        "imgUrl": "https://gw.alicdn.com/tps/TB1Nin9JFXXXXbXaXXXXXXXXXXX-224-224.png"
-                    },
-                    {
-                        "type": "test",
-                        "imgUrl": "https://gw.alicdn.com/tps/TB1Nin9JFXXXXbXaXXXXXXXXXXX-224-224.png"
-                    },
-                    {
-                        "type": "test",
-                        "imgUrl": "https://gw.alicdn.com/tps/TB1Nin9JFXXXXbXaXXXXXXXXXXX-224-224.png"
-                    },
-                    {
-                        "type": "test",
-                        "imgUrl": "https://gw.alicdn.com/tps/TB1Nin9JFXXXXbXaXXXXXXXXXXX-224-224.png"
-                    },
-                    {
-                        "type": "test",
-                        "imgUrl": "https://gw.alicdn.com/tps/TB1Nin9JFXXXXbXaXXXXXXXXXXX-224-224.png"
-                    },
-                    {
-                        "type": "test",
-                        "imgUrl": "https://gw.alicdn.com/tps/TB1Nin9JFXXXXbXaXXXXXXXXXXX-224-224.png"
-                    },
-                    {
-                        "type": "test",
-                        "imgUrl": "https://gw.alicdn.com/tps/TB1Nin9JFXXXXbXaXXXXXXXXXXX-224-224.png"
-                    },
-                    {
-                        "type": "test",
-                        "imgUrl": "https://gw.alicdn.com/tps/TB1Nin9JFXXXXbXaXXXXXXXXXXX-224-224.png"
-                    },
-                    {
-                        "type": "test",
-                        "imgUrl": "https://gw.alicdn.com/tps/TB1Nin9JFXXXXbXaXXXXXXXXXXX-224-224.png"
-                    }
-                ]
-            },
-            {
-                "type": "container-onePluxFour",
-                "id": "type=13489",
-                "style": {
-                    "bgColor": "#ffffff"
-                },
-                "items": [
-                    {
-                        "type": "image",
-                        "imgUrl": "https://gw.alicdn.com/tps/TB1Nin9JFXXXXbXaXXXXXXXXXXX-224-224.png"
-                    },
-                    {
-                        "type": "image",
-                        "imgUrl": "https://gw.alicdn.com/tps/TB1Nin9JFXXXXbXaXXXXXXXXXXX-224-224.png"
-                    },
-                    {
-                        "imgUrl": "https://gw.alicdn.com/tps/TB1Nin9JFXXXXbXaXXXXXXXXXXX-224-224.png",
-                        "type": "image"
-                    },
-                    {
-                        "imgUrl": "https://gw.alicdn.com/tps/TB1Nin9JFXXXXbXaXXXXXXXXXXX-224-224.png",
-                        "type": "image"
-                    },
-                    {
-                        "imgUrl": "https://gw.alicdn.com/tps/TB1Nin9JFXXXXbXaXXXXXXXXXXX-224-224.png",
-                        "type": "image"
-                    }
-                ]
-            },
-            {
-                "type": "container-onePlusN",
-                "id": "type=4",
-                "style": {
-                    "bgColor": "#ffffff"
-                },
-                "items": [
-                    {
-                        "type": "image",
-                        "imgUrl": "https://gw.alicdn.com/tps/TB1Nin9JFXXXXbXaXXXXXXXXXXX-224-224.png"
-                    },
-                    {
-                        "type": "image",
-                        "imgUrl": "https://gw.alicdn.com/tps/TB1Nin9JFXXXXbXaXXXXXXXXXXX-224-224.png"
-                    },
-                    {
-                        "imgUrl": "https://gw.alicdn.com/tps/TB1Nin9JFXXXXbXaXXXXXXXXXXX-224-224.png",
-                        "type": "image"
-                    },
-                    {
-                        "imgUrl": "https://gw.alicdn.com/tps/TB1Nin9JFXXXXbXaXXXXXXXXXXX-224-224.png",
-                        "type": "image"
-                    },
-                    {
-                        "imgUrl": "https://gw.alicdn.com/tps/TB1Nin9JFXXXXbXaXXXXXXXXXXX-224-224.png",
-                        "type": "image"
-                    }
-                ]
-            },
-            {
-                "type": "container-fourColumn",
-                "id": "type=4",
-                "style": {
-                    "bgColor": "#ffffff"
-                },
-                "items": [
-                    {
-                        "type": "image",
-                        "imgUrl": "https://gw.alicdn.com/tps/TB1Nin9JFXXXXbXaXXXXXXXXXXX-224-224.png"
-                    },
-                    {
-                        "type": "image",
-                        "imgUrl": "https://gw.alicdn.com/tps/TB1Nin9JFXXXXbXaXXXXXXXXXXX-224-224.png"
-                    },
-                    {
-                        "imgUrl": "https://gw.alicdn.com/tps/TB1Nin9JFXXXXbXaXXXXXXXXXXX-224-224.png",
-                        "type": "image"
-                    },
-                    {
-                        "imgUrl": "https://gw.alicdn.com/tps/TB1Nin9JFXXXXbXaXXXXXXXXXXX-224-224.png",
-                        "type": "image"
-                    }
-                ]
-            },
-            {
-                "type": "container-onePlusN",
-                "id": "LifeHome_oneToTwo",
-                "style": {
-                    "bgColor": "#ffffff",
-                    "aspectRatio": 1.8762,
-                    "cols": [
-                        43.733
-                    ],
-                    "margin": [
-                        "0",
-                        "0",
-                        "12",
-                        "0"
-                    ]
-                },
-                "items": [
-                    {
-                        "type": "image",
-                        "imgUrl": "https://gw.alicdn.com/tfs/TB1ARQYSpXXXXcRapXXXXXXXXXX-376-376.png",
-                        "style": {
-                            "margin": [
-                                "0",
-                                "2",
-                                "0",
-                                "0"
-                            ]
-                        }
-                    },
-                    {
-                        "spm": "banner",
-                        "type": "image",
-                        "imgUrl": "https://gw.alicdn.com/tps/TB1Nin9JFXXXXbXaXXXXXXXXXXX-224-224.png",
-                        "style": {
-                            "margin": [
-                                "0",
-                                "0",
-                                "2",
-                                "0"
-                            ]
-                        }
-                    },
-                    {
-                        "imgUrl": "https://gw.alicdn.com/tps/TB1Nin9JFXXXXbXaXXXXXXXXXXX-224-224.png",
-                        "type": "image"
-                    }
-                ]
-            },
-            {
-                "type": "container-scroll",
-                "id": "calendarCard_tangram",
-                "style": {
-                    "bgColor": "#FFFFFF",
-                    "pageWidth": "176",
-                    "hasIndicator":"false",
-                    "pageMargin": [
-                        "3",
-                        "0",
-                        "2",
-                        "4"
-                    ],
-                    "pageHeight": "109",
-                    "margin": [
-                        "0",
-                        "0",
-                        "0",
-                        "0"
-                    ]
-                },
-                "header": {
-                    "type": "text",
-                    "text": "type = 10 PageScroll Layout(use header) "
-                },
-                "footer": {
-                    "type": "text",
-                    "text": "PageScroll footer(use footer)"
-                },
-                "items": [
-                    {
-                        "type": "image",
-                        "imgUrl": "https://gw.alicdn.com/tps/TB1Nin9JFXXXXbXaXXXXXXXXXXX-224-224.png",
-                        "style": {
-                            "margin": [
-                                "0",
-                                "2",
-                                "0",
-                                "0"
-                            ]
-                        }
-                    },
-                    {
-                        "type": "image",
-                        "imgUrl": "https://gw.alicdn.com/tps/TB1Nin9JFXXXXbXaXXXXXXXXXXX-224-224.png",
-                        "style": {
-                            "margin": [
-                                "0",
-                                "0",
-                                "2",
-                                "0"
-                            ]
-                        }
-                    },
-                    {
-                        "type": "image",
-                        "imgUrl": "https://gw.alicdn.com/tps/TB1Nin9JFXXXXbXaXXXXXXXXXXX-224-224.png",
-                        "style": {
-                            "margin": [
-                                "0",
-                                "0",
-                                "2",
-                                "0"
-                            ]
-                        }
-                    },
-                    {
-                        "imgUrl": "https://img.alicdn.com/tps/i1/TB1DwDoKpXXXXcIXFXXYCR.YFXX-422-200.jpg",
-                        "type": "image"
-                    },
-                    {
-                        "imgUrl": "https://img.alicdn.com/tps/i1/TB1DwDoKpXXXXcIXFXXYCR.YFXX-422-200.jpg",
-                        "type": "image"
-                    }
-                ]
-            },
-            {
-                "type":"container-oneColumn",
-                "header":{
-                    "type": "text",
-                    "text": "---------------------------"
-                },
-                "items":[
-                    {
-                        "type": "text",
-                        "text": "This is a oneColumn nested by container-scroll"
-                    },
-                    {
-                        "type": "text",
-                        "text": "NOTICE: Don't use header in inner nested layout."
-                    },
-                    {
-                        "type": "text",
-                        "text": "Nested layout must contain id as key"
-                    },
-                    {
-                        "type": "container-scroll",
-                        "id": "MustContainIdCanBeNested!",
-                        "style": {
-                            "indicatorStyle": "dot",
-                            "bgColor": "#FFFFFF",
-                            "indicatorRadius": "3",
-                            "indicatorPosition": "inside",
-                            "align": "left",
-                            "infinite":"true",
-                            "autoScroll":"3000",
-                            "pageMargin": [
-                                "3",
-                                "0",
-                                "2",
-                                "4"
-                            ],
-                            "defaultIndicatorColor": "#333333",
-                            "indicatorColor": "#B4B4B4",
-                            "pageHeight": "109",
-                            "animation": "desc",
-                            "hasIndicator": "true",
-                            "margin": [
-                                "0",
-                                "0",
-                                "0",
-                                "0"
-                            ]
+                        "type": "container-test",
+                        "id": "hjasdhajsdhajshdja2fffff",
+                        "style":{
+                            "margin":["5rp","5","5","5"]
                         },
                         "items": [
                             {
-                                "type": "image",
-                                "imgUrl": "https://gw.alicdn.com/tps/TB1Nin9JFXXXXbXaXXXXXXXXXXX-224-224.png",
-                                "style": {
-                                    "margin": [
-                                        "0",
-                                        "2",
-                                        "0",
-                                        "0"
-                                    ]
-                                }
-                            },
-                            {
-                                "type": "image",
-                                "imgUrl": "https://gw.alicdn.com/tps/TB1Nin9JFXXXXbXaXXXXXXXXXXX-224-224.png",
-                                "style": {
-                                    "margin": [
-                                        "0",
-                                        "0",
-                                        "2",
-                                        "0"
-                                    ]
-                                }
-                            },
-                            {
-                                "type": "image",
-                                "imgUrl": "https://gw.alicdn.com/tps/TB1Nin9JFXXXXbXaXXXXXXXXXXX-224-224.png",
-                                "style": {
-                                    "margin": [
-                                        "0",
-                                        "0",
-                                        "2",
-                                        "0"
-                                    ]
-                                }
-                            },
-                            {
-                                "imgUrl": "https://img.alicdn.com/tps/i1/TB1DwDoKpXXXXcIXFXXYCR.YFXX-422-200.jpg",
-                                "type": "image"
-                            },
-                            {
-                                "imgUrl": "https://img.alicdn.com/tps/i1/TB1DwDoKpXXXXcIXFXXYCR.YFXX-422-200.jpg",
-                                "type": "image"
+                                "type": "container-test",
+                                "id": "hjasdhajsdhajshdja122323ddddddsdsdsds",
+                                "style":{
+                                    "margin":["5rp","5","5","5"]
+                                },
+                                "items": [
+                                    {
+                                        "type": "text",
+                                        "text": "1-2-1",
+                                        "style":{
+                                            "margin":["5rp","5","5","5"]
+                                        }
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": "1-2-2",
+                                        "style":{
+                                            "margin":["5rp","5","5","5"]
+                                        }
+                                    }
+                                ]
                             }
                         ]
-                    }]
+                    }
+                ]
             }
         ]
     }

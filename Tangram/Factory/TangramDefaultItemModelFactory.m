@@ -42,7 +42,9 @@
 
 + (NSObject<TangramItemModelProtocol> *)itemModelByDict:(NSDictionary *)dict
 {
+    // 先创建一个光杆itemModel实例
     TangramDefaultItemModel *itemModel = [[TangramDefaultItemModel alloc]init];
+    // 然后从dict中拾取属性添加到itemModel实例上
     return [[self class]praseDictToItemModel:itemModel dict:dict];
 }
 
@@ -122,10 +124,16 @@
             [itemModel setStyleValue:[styleDict tm_safeObjectForKey:key] forKey:key];
         }
     }
+    // 🥵 itemModel的字典中的type的特殊处理，当itemModel的type是一个layout，而不是一个element的情况
     if ([[dict tm_stringForKey:@"kind"] isEqualToString:@"row"] || [TangramDefaultLayoutFactory layoutClassNameByType:type].length > 0) {
+        // 此时记录了itemModel字典中id到layoutIdentifierForLayoutModel的属性中，
+        // 后续继续观察layoutIdentifierForLayoutModel这个属性起了什么作用？
+        // itemModel中“可能”需要加入一个id字段，
+        // itemModel->id和layoutIdentifierForLayoutModel构成了关联，如果没有id之后会怎么样？
         itemModel.layoutIdentifierForLayoutModel = [dict tm_stringForKey:@"id"];
     }
     //itemModel.specificReuseIdentifier = [dict tm_stringForKey:@"muiID"];
+    // itemModel最终通过字典将type转换成了element的名字。
     itemModel.linkElementName = [[TangramDefaultItemModelFactory sharedInstance].elementTypeMap tm_stringForKey:itemModel.type];
     //TODO specificMuiID 增加逻辑
     return itemModel;
